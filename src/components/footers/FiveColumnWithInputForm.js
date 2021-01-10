@@ -17,9 +17,6 @@ const Column = tw.div`px-4 sm:px-0 sm:w-1/4 md:w-auto mt-12`;
 
 const ColumnHeading = tw.h5`uppercase font-bold`;
 
-const LinkList = tw.ul`mt-6 text-sm font-medium`;
-const LinkListItem = tw.li`mt-3`;
-const Link = tw.a`border-b-2 border-transparent hocus:border-gray-700 pb-1 transition duration-300`;
 
 const SubscribeNewsletterColumn = tw(Column)`text-center lg:text-left w-full! lg:w-auto! mt-20 lg:mt-12`;
 const SubscribeNewsletterContainer = tw.div`max-w-sm mx-auto lg:mx-0 `;
